@@ -11,4 +11,4 @@ cateto2 = float(input("Medida do Cateto 2? "))
 hipotenusa_q  = cateto1**2 + cateto2**2
 hipotenusa = math.sqrt( hipotenusa_q)
 
-print("Medida da Hipotenusa: {:.2f}".format(hipotenusa))
+print("Medida da Hipotenusa: {:.3f}".format(hipotenusa))
